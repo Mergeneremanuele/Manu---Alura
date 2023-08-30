@@ -1,0 +1,76 @@
+* {
+ margin:0;
+ padding: 0;
+ }
+
+body{
+    font-family: 'Poppins', sem serifa;
+}
+
+.cabeçalho {
+background-color: #FBDCF8  ;
+color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 24px 0;
+}
+
+.cabeçalho-imagem{
+    width: 15%;
+}
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+
+font-size: 17px;
+}
+
+.loja-imagem{
+    width: 25%;
+}
+.loja{
+    background-image: linear-gradient(#FBDCF8 ,#F3E2EC);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px 0%;
+}
+.loja-div-conteudo{
+    width: 35%;
+}
+.loja-titulo{
+    padding: 24px 0;
+}
+
+.novidades-imagem{
+    width: 90px;
+}
+
+
+
+.novidades-div{
+text-align: center;
+}
+
+.novidades-titulo{
+    text-align: center;
+padding: 50px 0;
+}
+
+
+.novidades-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: white;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 90px;
+    padding: 12px 0;
+}
